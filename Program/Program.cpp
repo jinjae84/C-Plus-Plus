@@ -23,6 +23,32 @@ public:
 
 	int & X() { return x; }
 	int & Y() { return y; }
+
+	Vector2 &operator+(const Vector2& other)
+	{
+		Vector2 vector(this->x + other.x, this->y + other.y);
+
+		return vector;
+	}
+
+	Vector2 & operator++()
+	{
+		
+		this->x++;
+		this->y++;
+
+		return *this;
+	}
+
+	Vector2& operator ++ (int value)
+	{
+		Vector2 clone(this->x, this->y);
+		
+		this->x += 1;
+		this->y += 1;
+		
+		return clone;
+	}
 };
 
 int main()
@@ -44,11 +70,18 @@ int main()
 #pragma endregion
 
 #pragma region 연산자 오버로딩
-	
+		
 	Vector2 vector1(1, 1);
 	Vector2 vector2(3, 3);
+		
+	Vector2 position = vector1 + vector2;
+	
+	cout << "position X의 값 : " << position.X() << endl;
+	cout << "position Y의 값 : " << position.Y() << endl;
 
-	// Vector2 position = vector1 + vector2;
+	cout << ++position.X() << endl;
+	cout << ++position.Y() << endl;
+
 
 #pragma endregion
 
