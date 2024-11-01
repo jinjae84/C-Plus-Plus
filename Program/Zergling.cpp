@@ -2,11 +2,11 @@
 
 Zergling::Zergling()
 {
-	initializeHealth = 35;
-	health = 15;
+	health = 35;
+	initializeHealth = health;
 }
 
 void Zergling::Recovery()
 {
-	cout << "On Recovery" << endl;
+	health = initializeHealth;	
 }
