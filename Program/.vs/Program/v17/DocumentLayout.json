@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{CED079B8-1B91-4BD0-B84D-5EBAC625B62E}|Program.vcxproj|C:\\Users\\\uBA85\uC9C4\uC7AC\\Desktop\\C-Plus-Plus\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CED079B8-1B91-4BD0-B84D-5EBAC625B62E}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{281CA1B7-FB0A-4CB1-9ADA-2C8D5CE80205}|..\\Class 3th (Constructor \u0026 Destructor)\\Class 3th (Constructor \u0026 Destructor).vcxproj|C:\\Users\\\uBA85\uC9C4\uC7AC\\Desktop\\C-Plus-Plus\\Class 3th (Constructor \u0026 Destructor)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\\uBA85\uC9C4\uC7AC\\Desktop\\C-Plus-Plus\\Class 3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class 3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "ToolTip": "C:\\Users\\\uBA85\uC9C4\uC7AC\\Desktop\\C-Plus-Plus\\Class 3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "RelativeToolTip": "..\\Class 3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T11:27:40.335Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\\uBA85\uC9C4\uC7AC\\Desktop\\C-Plus-Plus\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwCYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T11:03:16.739Z",
               "EditorCaption": ""
