@@ -2,6 +2,7 @@
 #include <vector>
 #include <list>
 #include <string>
+#include <deque>
 
 using namespace std;
 
@@ -79,6 +80,26 @@ int main()
 	// cout << name.find("for") << endl;
 
 #pragma endregion
+
+#pragma region Deque 컨테이너
+	
+	// deque<int> deque;
+	// 	
+	// deque.push_back(15);
+	// deque.push_back(20);
+	// deque.push_back(1);
+	// 
+	// deque.push_front(10);
+	// deque.push_front(5);
+	// deque.push_front(50);
+	// 	
+	// for (int i = 0; i < deque.size(); i++)
+	// {
+	// 	cout << deque[i] << endl;
+	// }
+
+#pragma endregion
+
 
 	return 0;
 }
